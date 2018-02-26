@@ -9,9 +9,8 @@ public class CircleArea {
 		System.out.print("Enter radius of circle: ");
 		int r = sc.nextInt();
 		double area = Math.PI*r*r;
-		double halfArea = area/2;
 
-		System.out.println("The half area of the cirle is " +halfArea);
+		System.out.println("The area of the cirle is " +area);
 	}
 }
 
